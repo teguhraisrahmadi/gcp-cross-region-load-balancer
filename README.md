@@ -34,9 +34,15 @@
 <br> ![Capture](Material/9.png) <br>
 
 10. Then go to advanced option and management menu, and fill the automation option like this.
-    sudo apt-get update
-    sudo apt-get install apache2 -y
-    echo '<!doctype html><html><body><h1>Hello from Singapore!<h1></body></html>' | sudo tee /var/www/html/index.html
+```   
+sudo apt-get update
+```
+```
+sudo apt-get install apache2 -y
+```
+```
+echo '<!doctype html><html><body><h1>Hello from Singapore!<h1></body></html>' | sudo tee /var/www/html/index.html
+```
 <br> ![Capture](Material/10.png) <br>
 
 11. Then go to Network -> Network Interfaces. Then choose this one.
@@ -55,7 +61,9 @@
 <br> ![Capture](Material/15.png) <br>
 
 16. In the management menu, change the last script before.
-    echo '<!doctype html><html><body><h1>Hello from Belgium!<h1></body></html>' | sudo tee /var/www/html/index.html
+```
+echo '<!doctype html><html><body><h1>Hello from Belgium!<h1></body></html>' | sudo tee /var/www/html/index.html
+````
 <br> ![Capture](Material/16.png) <br>
 
 17. Change the subnet network to europe-west1.
