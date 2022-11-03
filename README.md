@@ -175,4 +175,4 @@ For now, the load balancer just direct to Singapore, this is because there is no
 49. There is because in the asia area have heavy load and it just have 50 rps specification. so the stress test can load this area exceed it can perform. You can see too in the monitoring traffic was up in asia area.
 <br> ![Capture](Material/52.png) <br>
 
-50. Done, Thanks
+Done, Thanks
